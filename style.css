@@ -1,0 +1,102 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1377px;
+    height: 1440px;
+    margin-left: 76px;
+    margin-top: 1%;
+}
+
+
+.work{
+    position: absolute;
+    margin-top: 1%;
+    width: 1161px;
+    height: 880px;
+    background-image: url(sculpture01.png);
+    background-size: cover;
+}
+
+
+.words{
+    margin-top: 930px;
+}
+
+
+.title{
+    font-size: 36px;
+    font-family: 'Hepta Slab', serif;
+    color: #515151;
+    margin-left: 4%;
+}
+
+.title:hover{
+    color: rgba(91, 164, 231);
+    font-style: italic;
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Hepta Slab', serif;
+    margin-left: 4%;
+    color: #515151;
+    margin-top: 1%;
+}
+
+h4:hover{
+    color: rgba(91, 164, 231);
+}
+
+p{  
+    font-size: 25px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-left: 4%;
+    margin-right: 8%;
+    color: #515151;
+    margin-top: 1.5%;
+    font-weight: lighter;
+}
+
+
+
+
+.backbutton{
+    position: fixed;
+    margin: 1%;
+    font-size: 18px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: #515151;
+}
+
+h2{
+    color: #515151;
+}
+
+h2:hover{
+    color: rgba(91, 164, 231);
+}
+
+
+
+
+
+.copyright{
+    position: fixed;
+    width: 150px;
+    margin-top: 950px;
+    margin-left: 690px;
+    font-size: 18px;
+    font-family: 'Hepta Slab', serif;
+    color: rgb(177, 177, 177, 0.8);
+}
